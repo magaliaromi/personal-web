@@ -7,6 +7,17 @@ class Projects extends Component {
     this.state = { activeTab: 0 };
   }
 
+  githubLink(repositoryName) {
+    return (
+      <a
+        className="mdl-button mdl-js-button mdl-button--colored"
+        href={`https://github.com/magaliaromi/${repositoryName}`}
+        target="_blank"
+        rel="noopener noreferrer"
+      >GitHub</a>
+    );
+  }
+
   reactSection() {
     return(
       <Grid>
@@ -17,11 +28,7 @@ class Projects extends Component {
                 This project is my personal web, where you can find information about my professional background.
             </CardText>
             <CardActions border>
-                <a
-                  className="mdl-button mdl-js-button mdl-button--colored"
-                  href="https://github.com/magaliaromi/personal-web"
-                  target="_blank"
-                >GitHub</a>
+              { this.githubLink('personal-web') }
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -37,11 +44,7 @@ class Projects extends Component {
                 where you can add, or delete a card for a user.
             </CardText>
             <CardActions border>
-              <a
-                className="mdl-button mdl-js-button mdl-button--colored"
-                href="https://github.com/magaliaromi/todos"
-                target="_blank"
-              >GitHub</a>
+              { this.githubLink('todos') }
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -105,11 +108,7 @@ class Projects extends Component {
                 about me and contact.
             </CardText>
             <CardActions border>
-              <a
-                className="mdl-button mdl-js-button mdl-button--colored"
-                href="https://github.com/magaliaromi/old-personal-web"
-                target="_blank"
-              >GitHub</a>
+              { this.githubLink('old-personal-web') }
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
