@@ -17,7 +17,11 @@ class Projects extends Component {
                 This project is my personal web, where you can find information about my professional background.
             </CardText>
             <CardActions border>
-                <Button colored>GitHub</Button>
+                <a
+                  className="mdl-button mdl-js-button mdl-button--colored"
+                  href="https://github.com/magaliaromi/personal-web"
+                  target="_blank"
+                >GitHub</a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -33,7 +37,11 @@ class Projects extends Component {
                 where you can add, or delete a card for a user.
             </CardText>
             <CardActions border>
-                <Button colored>GitHub</Button>
+              <a
+                className="mdl-button mdl-js-button mdl-button--colored"
+                href="https://github.com/magaliaromi/todos"
+                target="_blank"
+              >GitHub</a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
@@ -97,7 +105,11 @@ class Projects extends Component {
                 about me and contact.
             </CardText>
             <CardActions border>
-                <Button colored>GitHub</Button>
+              <a
+                className="mdl-button mdl-js-button mdl-button--colored"
+                href="https://github.com/magaliaromi/old-personal-web"
+                target="_blank"
+              >GitHub</a>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
