@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 
 class Projects extends Component {
   constructor(props) {
@@ -30,9 +30,6 @@ class Projects extends Component {
             <CardActions border>
               { this.githubLink('personal-web') }
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
         </Cell>
 
@@ -46,9 +43,6 @@ class Projects extends Component {
             <CardActions border>
               { this.githubLink('todos') }
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
         </Cell>
       </Grid>
@@ -71,9 +65,6 @@ class Projects extends Component {
             <CardActions border>
                 <Button style={{textDecoration: 'none'}}>PRIVATE</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
         </Cell>
 
@@ -88,9 +79,6 @@ class Projects extends Component {
             <CardActions border>
                 <Button style={{textDecoration: 'none'}}>PRIVATE</Button>
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
         </Cell>
       </Grid>
@@ -110,9 +98,6 @@ class Projects extends Component {
             <CardActions border>
               { this.githubLink('old-personal-web') }
             </CardActions>
-            <CardMenu style={{color: '#fff'}}>
-                <IconButton name="share" />
-            </CardMenu>
           </Card>
         </Cell>
       </Grid>
