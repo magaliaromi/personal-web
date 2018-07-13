@@ -2,6 +2,7 @@
   "name": "personal-web",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "dependencies": {
     "eslint-plugin-react": "^7.10.0",
     "react": "^16.4.1",
