@@ -4,11 +4,11 @@ https://www.aromi.com.ar
 
 ## Screenshots
 
-![Screenshot Landing page](/screenshots/landing.png?raw=true "Screenshot Landing page")
+![landing page screenshot](screenshots/landing.PNG "Landing page screenshot")
 
-![Screenshot Projects page](/screenshots/projects.png?raw=true "Screenshot Projects page")
+![resume page screenshot](screenshots/resume.PNG "Resume page screenshot")
 
-![Screenshot Resume page](/screenshots/resume.png?raw=true "Screenshot Resume page")
+![projects page screenshot](screenshots/projects.PNG "Projects page screenshot")
 
 ## License
 
