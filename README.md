@@ -2,13 +2,9 @@
 
 https://www.aromi.com.ar
 
-## Screenshots
+## Screenshot
 
-![landing page screenshot](screenshots/landing.PNG "Landing page screenshot")
-
-![resume page screenshot](screenshots/resume.PNG "Resume page screenshot")
-
-![projects page screenshot](screenshots/projects.PNG "Projects page screenshot")
+[![landing page screenshot](screenshots/landing.PNG "Landing page screenshot")](https://www.aromi.com.ar)
 
 ## License
 
