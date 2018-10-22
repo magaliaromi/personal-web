@@ -15,7 +15,7 @@ class Landing extends Component {
         <Cell col={10} offsetDesktop={1} tablet={12} className="banner-text">
           <h1>Full Stack Developer</h1>
           <hr/>
-          <p>ASP.NET | VS.NET | C# | SQL Server | Javascript | React JS | HTML | CSS | C3.js | Bootstrap </p>
+          <p>ASP.NET | VB.NET | C# | SQL Server | Javascript | React JS | HTML | CSS | C3.js | Bootstrap </p>
           <div className="social-links">
             {/* linkedIn */}
             <a href="https://www.linkedin.com/in/magaliaromi/" rel="noopener noreferrer" target="_blank">
