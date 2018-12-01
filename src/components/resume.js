@@ -80,7 +80,7 @@ class Resume extends Component {
             progress={100}
           />
           <Skills
-            skills="VS.NET"
+            skills="VB.NET"
             progress={100}
           />
           <Skills
