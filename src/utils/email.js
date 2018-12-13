@@ -10,5 +10,5 @@ export default function email() {
   const hostname = window.location.hostname.split('.');
   const name = 'magali';
   const server = 'gmail';
-  return `${name}${hostname[1]}@${server}.${hostname[2]}`;
+  return `${name}${hostname[0]}@${server}.${hostname[1]}`;
 }
