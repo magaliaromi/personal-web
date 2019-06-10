@@ -1,6 +1,6 @@
 # My personal web
 
-https://www.aromi.com.ar
+https://aromi.com.ar
 
 ## Screenshot
 
